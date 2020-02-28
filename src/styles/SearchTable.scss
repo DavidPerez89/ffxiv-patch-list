@@ -1,0 +1,79 @@
+.form-control {
+    width: 130%
+}
+
+.react-bootstrap-table {
+    margin-top: -1.5rem;
+
+    & thead {
+        background-color: rgba(41, 41, 41, 0.716);
+        color: white;
+    }
+
+    & tbody {
+        background-color: rgba(41, 41, 41, 0.716);
+        color: white;
+
+        & tr:hover {
+            background-color: rgba(126, 126, 126, 0.716);
+        }
+    }
+}
+
+.react-bootstrap-table-pagination-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.react-bootstrap-table-page-btns-ul  {
+    & .active {
+
+        & .page-link {
+            background-color: #b7b13c;
+            border-color: white;
+
+            &:hover {
+                background-color: #e7e04c;
+            }
+        }
+    }
+
+    & .page-link {
+        background-color: rgba(41, 41, 41, 0.716);
+        color: white;
+
+        &:hover {
+            background-color: rgba(126, 126, 126, 0.716);
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+#pageDropDown {
+    background-color: rgba(41, 41, 41, 0.716);
+    border-color: white;
+    &:hover {
+        background-color: rgba(126, 126, 126, 0.716);
+    }
+}
+
+.dropdown-menu {
+    background-color: rgba(41, 41, 41, 0.716);
+    top: 140%;
+    left: -5%;
+    min-width: 4rem;
+
+    & .dropdown-item {
+
+        &:hover {
+            background-color: rgba(126, 126, 126, 0.716);
+        }
+
+        & a {
+            color: white
+        }
+    }
+}
